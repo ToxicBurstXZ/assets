@@ -815,7 +815,7 @@
   <div id="unity-fullscreen-button" style="display: none;"></div>
   <script>
       const hideFullScreenButton = "1";
-      const buildUrl = "https://cdn.jsdelivr.net/gh/topvaz/gfiles5@e6b74023ce6da4c83746d06660748497c8a7127d/deepest-sword/Build";
+      const buildUrl = "";
       const loaderUrl = buildUrl + "/WebBuilds.loader.js";
       const config = {
         dataUrl: buildUrl + "/WebBuilds.data",

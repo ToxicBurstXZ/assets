@@ -7,4 +7,80 @@
   <h1 style="font-family:verdana"><center>Soon to be a Gamehub</center></h2>
 
  </body>
+ <body>
+ <button class="c-button">Drive Mad</button>
+  <script>
+
+        var urlObj = new window.URL(window.location.href);
+        var url = "/projects/drive-mad/";
+
+        if (url) {
+            var win;
+
+            document.querySelector('button').onclick = function() {
+                if (win) {
+                    win.focus();
+                } else {
+                    win = window.open();
+                    win.document.body.style.margin = '0';
+                    win.document.body.style.height = '100vh';
+                    var iframe = win.document.createElement('iframe');
+                    iframe.style.border = 'none';
+                    iframe.style.width = '100%';
+                    iframe.style.height = '100%';
+                    iframe.style.margin = '0';
+                    iframe.src = url;
+                    win.document.body.appendChild(iframe);
+                   
+
+                    var interval = setInterval(function() {
+                        if (win.closed) {
+                            clearInterval(interval);
+                            win = undefined;
+
+                        }
+                    }, 500);
+
+
+                }
+            };
+        }
+    
+  </script>
+  <style>
+
+.c-button {
+  white-space: nowrap;
+  min-width: 100%;
+  font-family: Arial;
+  appearance: none;
+  border: 1;
+border-color: #FFFFFF;
+  border-radius: 6px;
+  background: #FFFFFF;
+  color: #000000;
+  padding: 0px 46px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.c-button:hover {
+  background: #F9F9F9;
+}
+
+.c-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #000000;
+}
+ 
+ .c-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+  </style> 
+</body>
 </html>

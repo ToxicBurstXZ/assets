@@ -10,9 +10,7 @@
   background-color: rgba(0,0,0,0.5);
   z-index: 4;
 }
-* {
-  cursor: url(https://aquagxmes.github.io/img/Normal.cur),auto;
-}
+* 
 #settings {
 	z-index: 10;
     width: 683px; 
@@ -111,7 +109,7 @@ canvas {
 .title {
   font-family: Poppins;
   -webkit-text-stroke: 0.1px #FFFFFF;
-  font-size: 70px;
+  font-size: 120px;
   text-align: center;
 }
 .sentence {

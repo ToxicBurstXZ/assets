@@ -109,7 +109,7 @@ canvas {
 .title {
   font-family: Poppins;
   -webkit-text-stroke: 0.1px #FFFFFF;
-  font-size: 120px;
+  font-size: 80px;
   text-align: center;
 }
 .sentence {

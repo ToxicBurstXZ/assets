@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html> 
 <head>
-  <title>Cooking Time</title>
+  <title>Aqua Games</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins'>
-  <link rel="icon" type="image/x-icon" href="/projects/2048/favicon.ico">
-  <link rel="stylesheet" href="/css/second.css">
-  <link rel="stylesheet" href="/css/full.css.map">
+  <link rel="icon" type="image/x-icon" href="./img/aqua.ico">
+  <link rel="stylesheet" href="/css/aqua.css">
+  <link rel="stylesheet" href="/css/master.css.map">
 </head>
 <body>
 <ul>
-  <li><a class="active" href="https://toxicburstxz.github.io">Home</a></li>
+  <li><a class="active" href="https://aquagxmes.github.io">Home</a></li>
   <li><a href="/pages/games.html">Games</a></li>
+  <li><a href="/pages/news.html">News</a></li>
+<li><a href="/pages/extra.html">Extra</a></li>
   <li style="float: right;">
+    <a class="active" onclick="toggleSettings()">
+        <img id="settingToggle" src="/img/setting.png">
+    </a>
 </li>
 </ul>
+<h6 id="OrgTitleName">Aqua Games</h6>
+<div id="settings" style="text-align: center; display: none;">
+    <a style="float: right;" onclick='doc.getElementById("settings").style.display="none"'>
+    <img src="/img/close.png" style="width: 50px;"></a>
     
+    <h1 class="SettingsTitle">Settings</h1>
+        <input type="text" id="CloakForm" style="text-align: center;">
 <br>
-  <h1 class="aqua" style="color: #FFFFFF"><center>Cooking Time</center></h1>
-  <a href="https://git.io/typing-svg"><center><img src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&weight=800&size=30&duration=1&pause=10000&color=F7F7F7&center=true&vCenter=true&random=true&width=435&lines=Cooking+100%25+Updated;Lucas+PLZ+become+gay;Nico+Take+a+Bath;Something+random;Roman+should+suck+a+nut;(Insert+New+Text+Here)" alt="Typing SVG" /><center></a>
-  
-
+<div class="CloakBttns" style="margin: 5px;text-align: center;">
+    <button class="CloakInput" onclick="TitleSetting(doc.getElementById('CloakForm').value)">Title Cloak</button>
+    <button class="CloakInput" onclick="IconSetting(doc.getElementById('CloakForm').value)">Icon Cloak</button>
+    <button class="CloakInput" onclick="DefaultSetting()">Default</button>
+</div></div>
+  <div class="container">
+  <h1 class="aqua">Aqua Games</h1>
+  <h2 class="aquasentence">The successor to Incognition, Dark Mode Gamers, and Incognito Games.</h2>
   </div>
  <div id="particles-js"></div>
   <script src="/js/particles.js"></script>

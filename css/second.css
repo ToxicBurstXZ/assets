@@ -109,9 +109,9 @@ canvas {
   vertical-align: bottom;
 }
 .cooking {
-  font-family: SUSE;
+  font-family: Poppins;
   -webkit-text-stroke: 0.1px #00BBED;
-  font-size: 70px;
+  font-size: 120px;
   text-align: center;
 }
 .normal {

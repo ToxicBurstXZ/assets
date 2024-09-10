@@ -108,13 +108,13 @@ canvas {
   display: block;
   vertical-align: bottom;
 }
-.aqua {
+.title {
   font-family: Poppins;
   -webkit-text-stroke: 0.1px #00BBED;
   font-size: 70px;
   text-align: center;
 }
-.aquasentence {
+.sentence {
   font-family: Poppins;
   -webkit-text-stroke: 0.01px #00BBED;
   font-size: 20px;

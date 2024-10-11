@@ -115,7 +115,7 @@ canvas {
   display: block;
   vertical-align: bottom;
 }
-.aqua {
+.text {
   font-family: Poppins;
  color: rgba(0,0,0,0);
   -webkit-text-stroke: 0.6px #000000;

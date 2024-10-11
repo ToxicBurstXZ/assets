@@ -1,7 +1,15 @@
-<style>
-		.test {
-			color: #3498db;
-      font-size: 70px;
-      text-align: center;
-		}
-	</style>
+}
+.tesy {
+  font-family: Poppins;
+ color: rgba(0,0,0,0);
+  -webkit-text-stroke: 0.6px #000000;
+  font-size: 70px;
+  text-align: center;
+}
+.omni {
+  color: rgba(0,0,0,0);
+  font-family: Poppins;
+  -webkit-text-stroke: 0.8px #000000;
+  font-size: 26px;
+  text-align: center
+}

@@ -13,3 +13,25 @@
   font-size: 40px;
   text-align: center;
 }
+.flex {
+  display: flex;
+}
+
+.inline {
+  justify-content: center;
+}
+ln a {
+  top: 10px;
+  font-size: 30x;
+  color: #000000;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+}
+ln a:hover:not(.active) {
+
+  background-color: rgba(165, 42, 42, 0.6);
+  color: #FFFFFF;
+  border-radius: 15px;
+  transition: .3s;
+}

@@ -30,7 +30,7 @@ ln a {
 }
 ln a:hover:not(.active) {
 
-  background-color: rgba(165, 42, 42, 0.6);
+  background-color: rgba(0, 0, 0, 1);
   color: #FFFFFF;
   border-radius: 15px;
   transition: .3s;
@@ -45,7 +45,8 @@ ln1 a {
 }
 ln1 a:hover:not(.active) {
 
-  background-color: rgba(165, 42, 42, 0.6);
+  background-color: rgba(0, 0, 0, 1);
   color: #FFFFFF;
   border-radius: 30px;
+  transition: .3s;
 }

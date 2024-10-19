@@ -50,3 +50,32 @@ ln1 a:hover:not(.active) {
   border-radius: 30px;
   transition: .3s;
 }
+.c-button {
+  min-width: 100%;
+  font-family: fantasy;
+  appearance: none;
+  border: 1;
+border-color: #000000;
+  border-radius: 5px;
+  background: #FFFFFF;
+  color: #000000;
+  padding: 0px 46px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.c-button:hover {
+  background: #E5E4E2;
+}
+
+.c-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #000000;
+}
+ 
+ .c-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 13%;
+}

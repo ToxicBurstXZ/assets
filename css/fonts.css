@@ -29,9 +29,8 @@ ln a {
   text-decoration: none;
 }
 ln a:hover:not(.active) {
-
-  background-color: rgba(0, 0, 0, 1);
-  color: #FFFFFF;
+  background-color: rgba(0, 0, 0, 0);
+  color: #000000;
   border-radius: 15px;
   transition: .3s;
 }

@@ -23,13 +23,13 @@
 ln a {
   top: 10px;
   font-size: 30x;
-  color: #000000;
+  color: #FFFFFF;
   text-align: center;
   padding: 5px 20px;
   text-decoration: none;
 }
 ln a:hover:not(.active) {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 1);
   color: #000000;
   border-radius: 15px;
   transition: .3s;

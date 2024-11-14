@@ -37,9 +37,9 @@ ln a:hover:not(.active) {
 ln1 a {
   top: 10px;
   font-size: 40px;
-  color: #000000;
+  color: #FFFFFF;
   text-align: center;
-  padding: 5px  80px;
+  padding: 1px  80px;
   text-decoration: none;
 }
 ln1 a:hover:not(.active) {
@@ -48,6 +48,12 @@ ln1 a:hover:not(.active) {
   color: #FFFFFF;
   border-radius: 30px;
   transition: .3s;
+}
+ .menu {
+      margin: 0;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      justify-content: center;
 }
 .c-button {
   min-width: 100%;

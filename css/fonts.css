@@ -1,7 +1,7 @@
 .title {
   
-  color: rgba(255, 255, 255, 0.8);
-  -webkit-text-stroke: 2px #000000;
+  color: rgba(0, 0, 0, 1);
+  -webkit-text-stroke: 2px #FFFFFF;
   font-size: 80px;
   text-align: center;
   margin-top: 210px

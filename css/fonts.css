@@ -89,3 +89,7 @@ body {
   height: 100%;
   background-color: #000000;
 }
+.hvr-underline-from-center:before {
+        height: 2px;
+}
+

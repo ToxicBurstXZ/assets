@@ -23,7 +23,8 @@
 ln a {
   top: 10px;
   font-size: 30x;
-  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 1px #FFFFFF;
   text-align: center;
   padding: 5px 20px;
   text-decoration: none;

@@ -9,7 +9,7 @@
 .title1 {
   
  color: rgba(0, 0, 0, 0);
-  -webkit-text-stroke: 2px #FFFFFF;
+  -webkit-text-stroke: 1px #FFFFFF;
   font-size: 40px;
   text-align: center;
 }

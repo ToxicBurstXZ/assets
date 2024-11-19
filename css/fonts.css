@@ -5,13 +5,14 @@
   font-size: 80px;
   text-align: center;
   margin-top: 210px
+  font-family: Arial;
 }
 .title1 {
-  
- color: rgba(0, 0, 0, 0);
+   color: rgba(0, 0, 0, 0);
   -webkit-text-stroke: 1px #FFFFFF;
   font-size: 40px;
   text-align: center;
+  font-family: Arial;
 }
 .flex {
   display: flex;
@@ -27,6 +28,7 @@ ln a {
   text-align: center;
   padding: 5px 20px;
   text-decoration: none;
+  font-family: Arial;
 }
 ln a:hover:not(.active) {
   background-color: rgba(255, 255, 255, 1);
@@ -42,6 +44,7 @@ ln1 a {
   text-align: center;
   padding: 1px  80px;
   text-decoration: none;
+  font-family: Arial;
 }
 ln1 a:hover:not(.active) {
   background-color: rgba(255, 255, 255, 1);
@@ -101,7 +104,61 @@ body {
   height: 100%;
   background-color: #000000;
 }
-.hvr-underline-from-center:before {
-        height: 2px;
+ body {
+ margin: 0;
+ padding: 0;
+ font-family: Arial;
+ }
+ .navbar ul{
+ list-style: none;
+ background: #000;
+ margin: 0;
+ padding: 0;
+ text-align: center;
+ }
+ .navbar li{
+ display: inline-block
+ }
+  .navbar a{
+ text-decoration: none;
+ color: rgba(255, 255, 255, 0);
+ width: 200px;
+ display: block;
+ padding: 20px;
+ font-size: 30px;
+ text-transform: uppercase;
+ font-weight: bold;
+ text-align: center;
+ -webkit-text-stroke: 1px #FFFFFF;
+ }
+ .navbar a:hover:not(.active){
+  background-color: rgba(255, 255, 255, 1);
+  color: #000000;
+  border-radius: 15px;
+  transition: .3s;
+ }
+ @keyframes fadeInUp {
+  from {
+    transform: translate3d(0,-140px,0);
+  }
+
+  to {
+    transform: translate3d(0,0,0);
+    opacity: 1    
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
 }
 

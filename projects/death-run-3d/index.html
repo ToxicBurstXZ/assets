@@ -1,0 +1,20 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cooking Time | Death Run 3D</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/TemplateData/style.css">
+<script src="/TemplateData/UnityProgress.js"></script>
+<script src="/Build/UnityLoader.js"></script>
+<script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "/Build/death_run_wasm_v1.json", {
+        onProgress: UnityProgress,
+        Module: {
+            onRuntimeInitialized: function() {
+                UnityProgress(gameInstance, "complete")
+            }
+        }
+    });
+</script>
+<div class="webgl-content">
+    <div id="gameContainer" style="width: 100vw; height: 100vh"></div>
+</div>

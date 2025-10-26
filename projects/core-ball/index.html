@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script src="//www.google.com/jsapi"></script>
+        <script>
+            window.parent.maeExportApis_();
+        </script>
+        <meta charset="utf-8">
+        <title>Core Ball</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&amp;display=swap" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body style="background-color: rgb(0, 0, 0);"> <canvas style="display: none;" id="stage" width="806" height="543"></canvas>
+        <div id="begin" style="background-color: rgb(200, 200, 200); width: 100%; height: 100%;">
+            <section class="center-box"> <span class="title">CoreBall</span>
+                <div class="button">
+                    <div id="txtAr"></div>
+                    <div class="text">level 4</div>
+                </div>
+                <div class="op"> <a id="btnFW" href="javascript:;"> </a> <span id="btnReset" style="display:inline-block;color:#666">RESET</span>
+                    <div id="tip" style="font-size:14px;color:#555;margin-top: 15px;display:none;">Done</div>
+                </div>
+            </section>
+            <section id="wxArrow" style="display: none;">
+                <div style="position:absolute;width:100%;height:100%;opacity: 0.7;background-color:#000"> </div>
+            </section>
+        </div>
+        <script src="/data.js"></script>
+        <script src="/levels.js"></script>
+    </body>
+
+    </html>
